@@ -4,7 +4,7 @@
 
 ## Overview
 
-Lab 02a established who can do what in the environment via RBAC. This lab establishes *what gets deployed and how it stays deployed* via Azure Policy and resource locks. The two layers work together: RBAC controls the identity surface, Policy controls the configuration surface.
+Lab 02 established who can do what in the environment via RBAC. This lab establishes *what gets deployed and how it stays deployed* via Azure Policy and resource locks. The two layers work together: RBAC controls the identity surface, Policy controls the configuration surface.
 
 The work covers four areas: applying tags as governance metadata, using Azure Policy to enforce that tags exist on new resources, using Azure Policy to remediate existing resources that are missing tags, and using resource locks to prevent destructive operations on resources that shouldn't be modified or deleted casually.
 
